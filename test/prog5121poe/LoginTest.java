@@ -4,6 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LoginTest{
+    // Test the validation and login functionality of the login class
     @Test
     public void testCheckUserName(){
         Login instance = new Login();
