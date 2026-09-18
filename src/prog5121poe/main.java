@@ -15,6 +15,9 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //Creates a Scanner to collect input from the  user
+                //and a login object to handle registration and login
+                
        Scanner scanner = new Scanner(System.in);
        Login login = new Login();
        
