@@ -9,6 +9,9 @@ package prog5121poe;
  * @author tlale
  */
 public class Login {
+    /**
+     * Handles user registration, validation and login.
+     */
 
     //Registration details
     private String username;
