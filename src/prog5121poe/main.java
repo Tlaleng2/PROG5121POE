@@ -42,6 +42,7 @@ public class main {
        System.out.println(registrationMessage);
        
        //Login
+       // Allows the user to enter their registred username and password.
        if 
                (registrationMessage.equals("Registration successful.")){
            
