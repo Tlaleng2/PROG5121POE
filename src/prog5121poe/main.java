@@ -55,6 +55,12 @@ public class main {
            
            String loginMessage = login.returnLoginStatus(username, password);
            System.out.println(loginMessage);
+           
+           if (login.loginUser(loginUsername, loginpassword)){
+               QuickChat quickChat = new QuickChat(scanner);
+               quickChat.startQuickChat();
+              
+           }
        }
        scanner.close();
                                    

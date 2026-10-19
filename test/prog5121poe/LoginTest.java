@@ -10,7 +10,7 @@ public class LoginTest{
         Login instance = new Login();
         assertTrue(instance.checkUserName("tl_01"));
         assertFalse(instance.checkUserName("user123"));        
-    }
+    } 
     
     @Test
     public void testCheckPasswordComplixity(){
